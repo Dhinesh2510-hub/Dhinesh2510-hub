@@ -1,715 +1,689 @@
 <svg width="1400" height="500" viewBox="0 0 1400 500"
-     xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-  <!-- Background -->
-  <linearGradient id="background"
-                  x1="0%" y1="0%"
-                  x2="100%" y2="100%">
+<linearGradient id="background"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
 
-    <stop offset="0%" stop-color="#FFFFFF"/>
-    <stop offset="55%" stop-color="#F4F9FF"/>
-    <stop offset="100%" stop-color="#EAF3FF"/>
+<stop offset="0%" stop-color="#FFFFFF"/>
+<stop offset="55%" stop-color="#F5F9FF"/>
+<stop offset="100%" stop-color="#E8F2FF"/>
 
-  </linearGradient>
+</linearGradient>
 
-  <!-- Blue gradient -->
-  <linearGradient id="blue"
-                  x1="0%" y1="0%"
-                  x2="100%" y2="0%">
+<linearGradient id="title"
+x1="0%" y1="0%"
+x2="100%" y2="0%">
 
-    <stop offset="0%" stop-color="#173B75"/>
-    <stop offset="70%" stop-color="#2878D4"/>
-    <stop offset="100%" stop-color="#55A8FF"/>
+<stop offset="0%" stop-color="#173B75"/>
+<stop offset="65%" stop-color="#2878D4"/>
+<stop offset="100%" stop-color="#55A8FF"/>
 
-  </linearGradient>
+</linearGradient>
 
-  <!-- Card shadow -->
-  <filter id="shadow"
-          x="-20%" y="-20%"
-          width="140%" height="140%">
+<filter id="shadow">
 
-    <feDropShadow
-      dx="0"
-      dy="8"
-      stdDeviation="12"
-      flood-opacity="0.12"/>
+<feDropShadow
+dx="0"
+dy="8"
+stdDeviation="12"
+flood-opacity="0.12"/>
 
-  </filter>
+</filter>
 
 </defs>
 
 
-<!-- ================================================= -->
 <!-- BACKGROUND -->
-<!-- ================================================= -->
 
 <rect
-  width="1400"
-  height="500"
-  rx="28"
-  fill="url(#background)"
+width="1400"
+height="500"
+rx="28"
+fill="url(#background)"
 />
 
 
-<!-- Soft background shapes -->
+<!-- SOFT DECORATION -->
 
 <circle
-  cx="1250"
-  cy="70"
-  r="190"
-  fill="#DDEEFF"
-  opacity="0.55"
-/>
-
-<circle
-  cx="1050"
-  cy="470"
-  r="220"
-  fill="#E5F2FF"
-  opacity="0.7"
+cx="1250"
+cy="80"
+r="190"
+fill="#DDEEFF"
+opacity="0.65"
 />
 
 <circle
-  cx="80"
-  cy="460"
-  r="150"
-  fill="#EEF7FF"
-  opacity="0.8"
+cx="1080"
+cy="480"
+r="230"
+fill="#E5F2FF"
+opacity="0.8"
+/>
+
+<circle
+cx="40"
+cy="470"
+r="150"
+fill="#EEF7FF"
+opacity="0.9"
 />
 
 
-<!-- Decorative diagonal -->
-
-<path
-  d="M0 80 L200 0 L350 0 L0 180 Z"
-  fill="#EAF4FF"
-/>
-
-
-<!-- ================================================= -->
 <!-- TOP BADGE -->
-<!-- ================================================= -->
 
 <rect
-  x="70"
-  y="45"
-  width="330"
-  height="48"
-  rx="24"
-  fill="#FFFFFF"
-  stroke="#D9E8F7"
-  filter="url(#shadow)"
+x="70"
+y="40"
+width="340"
+height="50"
+rx="25"
+fill="#FFFFFF"
+stroke="#D7E6F5"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="98"
-  cy="69"
-  r="7"
-  fill="#2BB673"
+cx="100"
+cy="65"
+r="7"
+fill="#28B67A"
 />
 
 <text
-  x="120"
-  y="76"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="18"
-  fill="#526984">
+x="120"
+y="72"
+font-family="Arial, Helvetica, sans-serif"
+font-size="18"
+fill="#526984">
 
-  Aspiring  |  Innovating  |  Growing
+ASPIRING  |  INNOVATING  |  GROWING
 
 </text>
 
 
-<!-- ================================================= -->
 <!-- NAME -->
-<!-- ================================================= -->
 
 <text
-  x="70"
-  y="165"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="62"
-  font-weight="800"
-  letter-spacing="1"
-  fill="url(#blue)">
+x="70"
+y="165"
+font-family="Arial, Helvetica, sans-serif"
+font-size="62"
+font-weight="800"
+letter-spacing="1"
+fill="url(#title)">
 
-  DHINESHKUMAR S
+DHINESHKUMAR S
 
 </text>
 
 
-<!-- ================================================= -->
-<!-- FIELD -->
-<!-- ================================================= -->
+<!-- MAIN FIELD -->
 
 <text
-  x="72"
-  y="207"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="25"
-  font-weight="600"
-  letter-spacing="1"
-  fill="#24456E">
+x="72"
+y="210"
+font-family="Arial, Helvetica, sans-serif"
+font-size="25"
+font-weight="600"
+letter-spacing="1"
+fill="#24456E">
 
-  AI / ML  ×  DATA SCIENCE  ×  FULL STACK
+AI / ML  ×  DATA SCIENCE  ×  FULL STACK
 
 </text>
 
 
-<!-- ================================================= -->
 <!-- TAGLINE -->
-<!-- ================================================= -->
 
 <line
-  x1="72"
-  y1="240"
-  x2="125"
-  y2="240"
-  stroke="#2878D4"
-  stroke-width="4"
+x1="72"
+y1="245"
+x2="125"
+y2="245"
+stroke="#2878D4"
+stroke-width="4"
 />
 
 <text
-  x="145"
-  y="247"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="22"
-  fill="#425E7E">
+x="145"
+y="252"
+font-family="Arial, Helvetica, sans-serif"
+font-size="22"
+fill="#425E7E">
 
-  Turning Ideas Into Working Systems
+Turning Ideas Into Working Systems
 
 </text>
 
 
 <text
-  x="145"
-  y="278"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="17"
-  fill="#71869F">
+x="145"
+y="282"
+font-family="Arial, Helvetica, sans-serif"
+font-size="17"
+fill="#71869F">
 
-  Building intelligent solutions for real-world problems
+Building intelligent solutions for real-world problems
 
 </text>
 
 
-<!-- ================================================= -->
-<!-- SKILL CARDS -->
-<!-- ================================================= -->
-
-<!-- AI / ML -->
+<!-- AI CARD -->
 
 <rect
-  x="65"
-  y="315"
-  width="155"
-  height="105"
-  rx="18"
-  fill="#FFFFFF"
-  stroke="#E0ECF8"
-  filter="url(#shadow)"
+x="65"
+y="320"
+width="160"
+height="105"
+rx="18"
+fill="#FFFFFF"
+stroke="#DFEAF6"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="102"
-  cy="350"
-  r="20"
-  fill="#E8F3FF"
+cx="105"
+cy="352"
+r="21"
+fill="#E8F3FF"
 />
 
 <text
-  x="91"
-  y="358"
-  font-size="20">
+x="94"
+y="359"
+font-family="Arial"
+font-size="18"
+font-weight="700"
+fill="#2878D4">
 
-  AI
-
-</text>
-
-<text
-  x="83"
-  y="392"
-  font-family="Arial"
-  font-size="16"
-  font-weight="700"
-  fill="#24456E">
-
-  AI / ML
+AI
 
 </text>
 
 <text
-  x="83"
-  y="411"
-  font-family="Arial"
-  font-size="12"
-  fill="#71869F">
+x="85"
+y="392"
+font-family="Arial"
+font-size="16"
+font-weight="700"
+fill="#24456E">
 
-  Intelligent Systems
+AI / ML
+
+</text>
+
+<text
+x="85"
+y="412"
+font-family="Arial"
+font-size="12"
+fill="#71869F">
+
+Intelligent Systems
 
 </text>
 
 
-<!-- DATA SCIENCE -->
+<!-- DATA SCIENCE CARD -->
 
 <rect
-  x="235"
-  y="315"
-  width="170"
-  height="105"
-  rx="18"
-  fill="#FFFFFF"
-  stroke="#E0ECF8"
-  filter="url(#shadow)"
+x="240"
+y="320"
+width="175"
+height="105"
+rx="18"
+fill="#FFFFFF"
+stroke="#DFEAF6"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="270"
-  cy="350"
-  r="20"
-  fill="#E8F3FF"
+cx="280"
+cy="352"
+r="21"
+fill="#E8F3FF"
 />
 
-<text
-  x="261"
-  y="357"
-  font-size="21">
-
-  📊
-
-</text>
-
-<text
-  x="250"
-  y="392"
-  font-family="Arial"
-  font-size="16"
-  font-weight="700"
-  fill="#24456E">
-
-  Data Science
-
-</text>
-
-<text
-  x="250"
-  y="411"
-  font-family="Arial"
-  font-size="12"
-  fill="#71869F">
-
-  Data to Insights
-
-</text>
-
-
-<!-- FULL STACK -->
+<rect
+x="268"
+y="346"
+width="5"
+height="12"
+fill="#2878D4"/>
 
 <rect
-  x="420"
-  y="315"
-  width="165"
-  height="105"
-  rx="18"
-  fill="#FFFFFF"
-  stroke="#E0ECF8"
-  filter="url(#shadow)"
+x="276"
+y="341"
+width="5"
+height="17"
+fill="#2878D4"/>
+
+<rect
+x="284"
+y="337"
+width="5"
+height="21"
+fill="#2878D4"/>
+
+<text
+x="258"
+y="392"
+font-family="Arial"
+font-size="16"
+font-weight="700"
+fill="#24456E">
+
+Data Science
+
+</text>
+
+<text
+x="258"
+y="412"
+font-family="Arial"
+font-size="12"
+fill="#71869F">
+
+Data to Insights
+
+</text>
+
+
+<!-- FULL STACK CARD -->
+
+<rect
+x="430"
+y="320"
+width="170"
+height="105"
+rx="18"
+fill="#FFFFFF"
+stroke="#DFEAF6"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="455"
-  cy="350"
-  r="20"
-  fill="#E8F3FF"
+cx="468"
+cy="352"
+r="21"
+fill="#E8F3FF"
 />
 
 <text
-  x="445"
-  y="357"
-  font-size="20">
+x="451"
+y="359"
+font-family="Arial"
+font-size="17"
+font-weight="700"
+fill="#2878D4">
 
-  &lt;/&gt;
-
-</text>
-
-<text
-  x="440"
-  y="392"
-  font-family="Arial"
-  font-size="16"
-  font-weight="700"
-  fill="#24456E">
-
-  Full Stack
+&lt;/&gt;
 
 </text>
 
 <text
-  x="440"
-  y="411"
-  font-family="Arial"
-  font-size="12"
-  fill="#71869F">
+x="450"
+y="392"
+font-family="Arial"
+font-size="16"
+font-weight="700"
+fill="#24456E">
 
-  End-to-End Apps
+Full Stack
+
+</text>
+
+<text
+x="450"
+y="412"
+font-family="Arial"
+font-size="12"
+fill="#71869F">
+
+End-to-End Apps
 
 </text>
 
 
-<!-- COMPUTER VISION -->
+<!-- COMPUTER VISION CARD -->
 
 <rect
-  x="600"
-  y="315"
-  width="180"
-  height="105"
-  rx="18"
-  fill="#FFFFFF"
-  stroke="#E0ECF8"
-  filter="url(#shadow)"
+x="615"
+y="320"
+width="185"
+height="105"
+rx="18"
+fill="#FFFFFF"
+stroke="#DFEAF6"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="638"
-  cy="350"
-  r="20"
-  fill="#E8F3FF"
+cx="655"
+cy="352"
+r="21"
+fill="#E8F3FF"
 />
 
-<text
-  x="629"
-  y="358"
-  font-size="20">
+<ellipse
+cx="655"
+cy="352"
+rx="11"
+ry="7"
+fill="none"
+stroke="#2878D4"
+stroke-width="3"/>
 
-  👁
+<circle
+cx="655"
+cy="352"
+r="3"
+fill="#2878D4"/>
+
+<text
+x="640"
+y="392"
+font-family="Arial"
+font-size="16"
+font-weight="700"
+fill="#24456E">
+
+Computer Vision
 
 </text>
 
 <text
-  x="625"
-  y="392"
-  font-family="Arial"
-  font-size="16"
-  font-weight="700"
-  fill="#24456E">
+x="640"
+y="412"
+font-family="Arial"
+font-size="12"
+fill="#71869F">
 
-  Computer Vision
-
-</text>
-
-<text
-  x="625"
-  y="411"
-  font-family="Arial"
-  font-size="12"
-  fill="#71869F">
-
-  Intelligent Vision
+Intelligent Vision
 
 </text>
 
 
-<!-- HACKATHONS -->
+<!-- HACKATHON CARD -->
 
 <rect
-  x="795"
-  y="315"
-  width="160"
-  height="105"
-  rx="18"
-  fill="#FFFFFF"
-  stroke="#E0ECF8"
-  filter="url(#shadow)"
+x="815"
+y="320"
+width="170"
+height="105"
+rx="18"
+fill="#FFFFFF"
+stroke="#DFEAF6"
+filter="url(#shadow)"
 />
 
 <circle
-  cx="830"
-  cy="350"
-  r="20"
-  fill="#FFF1DC"
+cx="855"
+cy="352"
+r="21"
+fill="#FFF2DD"
 />
-
-<text
-  x="820"
-  y="358"
-  font-size="20">
-
-  🚀
-
-</text>
-
-<text
-  x="815"
-  y="392"
-  font-family="Arial"
-  font-size="16"
-  font-weight="700"
-  fill="#24456E">
-
-  Hackathons
-
-</text>
-
-<text
-  x="815"
-  y="411"
-  font-family="Arial"
-  font-size="12"
-  fill="#71869F">
-
-  Build & Innovate
-
-</text>
-
-
-<!-- ================================================= -->
-<!-- RIGHT SIDE DESK -->
-<!-- ================================================= -->
-
-<!-- Desk -->
-
-<rect
-  x="1000"
-  y="395"
-  width="340"
-  height="10"
-  rx="5"
-  fill="#D5DEE8"
-/>
-
-
-<!-- Laptop screen -->
-
-<rect
-  x="1050"
-  y="165"
-  width="250"
-  height="155"
-  rx="12"
-  fill="#26384D"
-  filter="url(#shadow)"
-/>
-
-
-<!-- Laptop display -->
-
-<rect
-  x="1060"
-  y="175"
-  width="230"
-  height="135"
-  rx="7"
-  fill="#102033"
-/>
-
-
-<!-- Laptop text -->
-
-<text
-  x="1085"
-  y="220"
-  font-family="Arial"
-  font-size="17"
-  fill="#FFFFFF">
-
-  BUILD
-
-</text>
-
-<text
-  x="1085"
-  y="248"
-  font-family="Arial"
-  font-size="17"
-  fill="#78B9FF">
-
-  LEARN
-
-</text>
-
-<text
-  x="1085"
-  y="276"
-  font-family="Arial"
-  font-size="17"
-  fill="#A6D5FF">
-
-  INNOVATE
-
-</text>
-
-<text
-  x="1085"
-  y="304"
-  font-family="Arial"
-  font-size="17"
-  fill="#FFFFFF">
-
-  SHIP 🚀
-
-</text>
-
-
-<!-- Laptop base -->
 
 <path
-  d="M1025 320 L1325 320 L1350 345 L1000 345 Z"
-  fill="#B8C5D3"
+d="M847 360 L856 342 L865 349 L860 354 L865 360 L850 363 Z"
+fill="#E99835"
 />
 
+<text
+x="840"
+y="392"
+font-family="Arial"
+font-size="16"
+font-weight="700"
+fill="#24456E">
 
-<!-- Plant -->
+Hackathons
+
+</text>
+
+<text
+x="840"
+y="412"
+font-family="Arial"
+font-size="12"
+fill="#71869F">
+
+Build & Innovate
+
+</text>
+
+
+<!-- LAPTOP -->
 
 <rect
-  x="1235"
-  y="275"
-  width="55"
-  height="90"
-  rx="12"
-  fill="#FFFFFF"
-  filter="url(#shadow)"
+x="1080"
+y="180"
+width="245"
+height="155"
+rx="12"
+fill="#26384D"
+filter="url(#shadow)"
 />
 
-<ellipse
-  cx="1260"
-  cy="245"
-  rx="75"
-  ry="45"
-  fill="#DFF3E7"
-/>
-
-<ellipse
-  cx="1225"
-  cy="230"
-  rx="45"
-  ry="28"
-  fill="#BCE6CA"
-/>
-
-<ellipse
-  cx="1290"
-  cy="220"
-  rx="45"
-  ry="28"
-  fill="#C9EDD4"
+<rect
+x="1092"
+y="192"
+width="221"
+height="130"
+rx="7"
+fill="#102033"
 />
 
 
-<!-- ================================================= -->
-<!-- SIDE TEXT -->
-<!-- ================================================= -->
+<!-- LAPTOP CONTENT -->
 
 <text
-  x="975"
-  y="90"
-  font-family="Arial"
-  font-size="20"
-  font-weight="600"
-  fill="#24456E">
+x="1120"
+y="230"
+font-family="Arial"
+font-size="18"
+font-weight="600"
+fill="#FFFFFF">
 
-  Code
+BUILD
 
 </text>
 
 <text
-  x="975"
-  y="118"
-  font-family="Arial"
-  font-size="20"
-  font-weight="600"
-  fill="#24456E">
+x="1120"
+y="258"
+font-family="Arial"
+font-size="18"
+font-weight="600"
+fill="#78B9FF">
 
-  Learn
+LEARN
 
 </text>
 
 <text
-  x="975"
-  y="146"
-  font-family="Arial"
-  font-size="20"
-  font-weight="600"
-  fill="#2878D4">
+x="1120"
+y="286"
+font-family="Arial"
+font-size="18"
+font-weight="600"
+fill="#A6D5FF">
 
-  Innovate
+INNOVATE
+
+</text>
+
+<text
+x="1120"
+y="314"
+font-family="Arial"
+font-size="18"
+font-weight="600"
+fill="#FFFFFF">
+
+SHIP
 
 </text>
 
 
-<!-- ================================================= -->
+<!-- LAPTOP BASE -->
+
+<path
+d="M1050 335 L1355 335 L1380 360 L1025 360 Z"
+fill="#B8C5D3"
+/>
+
+
+<!-- PLANT -->
+
+<rect
+x="1005"
+y="315"
+width="45"
+height="65"
+rx="10"
+fill="#FFFFFF"
+filter="url(#shadow)"
+/>
+
+<ellipse
+cx="1027"
+cy="285"
+rx="65"
+ry="42"
+fill="#D7F0DF"
+/>
+
+<ellipse
+cx="990"
+cy="275"
+rx="35"
+ry="25"
+fill="#BDE5C9"
+/>
+
+<ellipse
+cx="1060"
+cy="265"
+rx="38"
+ry="27"
+fill="#C7EBD2"
+/>
+
+
+<!-- RIGHT SIDE TEXT -->
+
+<text
+x="1000"
+y="80"
+font-family="Arial"
+font-size="20"
+font-weight="600"
+fill="#24456E">
+
+CODE
+
+</text>
+
+<text
+x="1000"
+y="108"
+font-family="Arial"
+font-size="20"
+font-weight="600"
+fill="#24456E">
+
+LEARN
+
+</text>
+
+<text
+x="1000"
+y="136"
+font-family="Arial"
+font-size="20"
+font-weight="600"
+fill="#2878D4">
+
+INNOVATE
+
+</text>
+
+
 <!-- FOOTER -->
-<!-- ================================================= -->
 
 <text
-  x="70"
-  y="465"
-  font-family="Arial"
-  font-size="16"
-  fill="#60758E">
+x="70"
+y="470"
+font-family="Arial"
+font-size="16"
+fill="#60758E">
 
-  India
+INDIA
 
 </text>
 
 <text
-  x="145"
-  y="465"
-  font-family="Arial"
-  font-size="16"
-  fill="#A0ADBA">
+x="135"
+y="470"
+font-family="Arial"
+font-size="16"
+fill="#A0ADBA">
 
-  |
-
-</text>
-
-<text
-  x="175"
-  y="465"
-  font-family="Arial"
-  font-size="16"
-  fill="#60758E">
-
-  Student Developer
+|
 
 </text>
 
 <text
-  x="345"
-  y="465"
-  font-family="Arial"
-  font-size="16"
-  fill="#A0ADBA">
+x="165"
+y="470"
+font-family="Arial"
+font-size="16"
+fill="#60758E">
 
-  |
+STUDENT DEVELOPER
 
 </text>
 
 <text
-  x="375"
-  y="465"
-  font-family="Arial"
-  font-size="16"
-  fill="#60758E">
+x="340"
+y="470"
+font-family="Arial"
+font-size="16"
+fill="#A0ADBA">
 
-  Real-World Impact
+|
+
+</text>
+
+<text
+x="370"
+y="470"
+font-family="Arial"
+font-size="16"
+fill="#60758E">
+
+REAL-WORLD IMPACT
 
 </text>
 
 
-<!-- Footer slogan -->
+<!-- FOOTER SLOGAN -->
 
 <text
-  x="1050"
-  y="465"
-  font-family="Arial"
-  font-size="15"
-  font-weight="700"
-  letter-spacing="3"
-  fill="#2878D4">
+x="1080"
+y="470"
+font-family="Arial"
+font-size="15"
+font-weight="700"
+letter-spacing="3"
+fill="#2878D4">
 
-  MAKE IDEAS WORK
+MAKE IDEAS WORK
 
 </text>
 
