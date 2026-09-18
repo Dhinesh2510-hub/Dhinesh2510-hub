@@ -1,16 +1,37 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Dhinesh2510-hub/Dhinesh2510-hub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# DHINESH KUMAR
 
-Here are some ideas to get you started:
+### AI / ML × FULL STACK × DATA
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Turning Ideas Into Working Systems 🚀**
+
+🤖 AI & Machine Learning  
+💻 Full-Stack Development  
+📊 Data Intelligence  
+👁️ Computer Vision  
+🌍 Real-World Problem Solving  
+🏆 Hackathons & Rapid Prototyping  
+
+### CODE → BUILD → TEST → DEPLOY
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+Hi! I'm **Dhinesh Kumar**, an aspiring AI/ML and Full-Stack Developer who enjoys building practical technology solutions.
+
+I like turning ideas into working applications, experimenting with AI/ML, and building projects around real-world problems.
+
+```text
+AI / ML
+   ↓
+DATA
+   ↓
+FULL-STACK DEVELOPMENT
+   ↓
+REAL-WORLD APPLICATIONS
+   ↓
+IMPACT 🚀
