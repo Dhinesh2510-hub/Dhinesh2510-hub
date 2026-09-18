@@ -1,19 +1,16 @@
 <div align="center">
 
-# DHINESH KUMAR
+<img src="./assets/banner.svg" width="100%" alt="DHINESHKUMAR S - AI ML Data Science Full Stack Developer">
 
-### AI / ML × FULL STACK × DATA
+</div>
 
-**Turning Ideas Into Working Systems 🚀**
+<br>
 
-🤖 AI & Machine Learning  
-💻 Full-Stack Development  
-📊 Data Intelligence  
-👁️ Computer Vision  
-🌍 Real-World Problem Solving  
-🏆 Hackathons & Rapid Prototyping  
+<div align="center">
 
-### CODE → BUILD → TEST → DEPLOY
+## 🤖 AI / ML × 📊 DATA SCIENCE × 💻 FULL STACK
+
+### Turning Ideas Into Working Systems 🚀
 
 </div>
 
@@ -21,17 +18,19 @@
 
 ## 👨‍💻 About Me
 
-Hi! I'm **Dhinesh Kumar**, an aspiring AI/ML and Full-Stack Developer who enjoys building practical technology solutions.
+Hi! I'm **DHINESHKUMAR S**, an aspiring **AI/ML, Data Science and Full-Stack Developer**.
 
-I like turning ideas into working applications, experimenting with AI/ML, and building projects around real-world problems.
+I enjoy building practical applications using artificial intelligence, machine learning, data, computer vision and modern web technologies.
+
+My goal is simple:
 
 ```text
-AI / ML
+PROBLEM
    ↓
 DATA
    ↓
-FULL-STACK DEVELOPMENT
+INTELLIGENCE
    ↓
-REAL-WORLD APPLICATIONS
+APPLICATION
    ↓
-IMPACT 🚀
+REAL-WORLD IMPACT 🌍
