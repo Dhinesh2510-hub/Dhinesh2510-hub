@@ -1,7 +1,7 @@
 <div align="center">
-
-<img src="./assets/banner.svg" width="100%" alt="DHINESHKUMAR S - AI ML Data Science Full Stack Developer">
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dhinesh2510-hub/Dhinesh2510-hub/main/assets/banner.svg" width="100%" alt="DHINESHKUMAR S Banner">
+</p>
 </div>
 
 <br>
@@ -20,9 +20,11 @@
 
 Hi! I'm **DHINESHKUMAR S**, an aspiring **AI/ML, Data Science and Full-Stack Developer**.
 
-I enjoy building practical applications using artificial intelligence, machine learning, data, computer vision and modern web technologies.
+I enjoy building practical applications using **Artificial Intelligence, Machine Learning, Data Science, Computer Vision and modern web technologies**.
 
-My goal is simple:
+I like turning real-world problems into practical technology solutions.
+
+### 🎯 My Approach
 
 ```text
 PROBLEM
